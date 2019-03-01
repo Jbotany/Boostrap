@@ -1,0 +1,134 @@
+#tableFellows
+{
+	display: flex;
+	justify-content: space-between;
+	justify-content: space-around;
+	width: 50%;
+
+/*	flex-direction: row;*/
+}
+
+.tableFellowsSection
+{
+		position: relative;
+		height: 300px;
+}
+
+.reward
+{
+	position: relative;
+	top: -195px;
+	width: 170px;
+	height: 40px;
+	margin-left: 15px;
+	border:1px solid white;
+	border-radius: 5px 5px 5px 5px;	
+	text-align: center;
+	font-size: 1.1em;
+	background-color: rgba(255,255,255,0.8);
+	z-index: 2;
+}
+
+.mask:hover .reward
+{
+	display: none;
+}
+
+/**.imgFellowsMask
+{
+	width: 200px;
+	height: 200px;
+	opacity: 0;
+	overflow: hidden;
+}
+
+.imgFellowsMask:hover
+{
+	width: 200px;
+	height: 200px;
+	opacity: 1;
+}**/
+
+.imgFellows
+{
+	width: 200px;
+	height: 200px;
+	opacity: 0.7;
+	z-index: 1;
+}
+
+.mask:hover .imgFellows
+{
+	width: 200px;
+	height: 200px;
+	opacity: 1;
+	z-index: 1;
+}
+
+*https://www.alsacreations.com/article/lire/1312-selectionner-les-freres-d-un-element-en-css-nth-child.html
+https://www.developpez.net/forums/d1748800/webmasters-developpement-web/mise-page-css/faire-disparaitre-elements-survol-d-meme-image/
+https://developer.mozilla.org/fr/docs/Web/CSS/S%C3%A9lecteurs_enfant
+https://www.creativejuiz.fr/blog/tutoriels/selecteur-dadjacence-indirecte-en-css3 *
+
+/**.textOverFlow:hover
+{
+	opacity: 0;
+}**/
+
+.nameFellows
+{
+	position: relative;
+	bottom: 120px;
+	color: white;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bold;
+	z-index: 2;
+}
+
+.mask:hover .nameFellows
+{
+
+	position: relative;
+	bottom: 50px;
+	color: white;
+	text-align: center;
+	font-size: 1em;
+	z-index: 2;
+}
+
+.rewardValue
+{
+	color: #F2741F;
+	font-weight: bold;
+}
+
+.fellowsDescription
+{
+	position: absolute;
+	bottom: 0px;
+}
+
+/**Dead fellows**/
+
+.dead
+{
+	position: relative;
+	top: -100px;
+	text-align: center;
+	font-weight: bold;
+
+}
+
+.imgDeadFellows
+{
+	width: 200px;
+	height: 200px;
+	opacity: 0.7;
+}
+
+.deadFellowsDescription
+{
+	position: relative;
+	bottom: 20px;
+}

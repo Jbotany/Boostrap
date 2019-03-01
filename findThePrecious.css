@@ -78,22 +78,6 @@ h2 span {
 	font-weight: bold;
 }
 
-/*.reward {
-	position: absolute;
-	top: 2vw;
-	left: 2vw;
-	width: 20vw;
-	height: 2vw;
-	padding-top: 0.2vw;
-	border:1px solid white;
-	border-radius: 5px 5px 5px 5px;	
-	text-align: center;
-	font-size: 1.1em;
-	background-color: rgba(255,255,255,0.8);
-	z-index: 2;
-	justify-content: center;
-}*/
-
 .mask:hover .reward {
 	display: none;
 }
